@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GirlsCode</string>
+
+    <string name="menu_nav_home">首页</string>
+    <string name="menu_nav_android">Android</string>
+    <string name="menu_nav_ios">iOS</string>
+    <string name="menu_nav_girl">福利</string>
+    <string name="menu_nav_video">视频</string>
+
+</resources>

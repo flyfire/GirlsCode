@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/item_selector_bg"
+    >
+
+    <ImageView
+        android:id="@+id/iv_girl_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/tv_girl_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="bottom"
+        android:text="2017/4/24"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:background="#70000000"
+        />
+
+</FrameLayout>

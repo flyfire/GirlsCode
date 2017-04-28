@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.cfanr.girlscode.ui.activities.GankDetailActivity">
+
+    <ProgressBar
+        android:id="@+id/gank_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/web_progress_bar_color"
+        />
+
+    <WebView
+        android:id="@+id/gank_web_view_gank"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

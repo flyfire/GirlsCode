@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="iconColor">#FFFFFF</color>
+    <color name="textPrimaryColor">#212121</color>
+    <color name="textSecondaryColor">#757575</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <color name="light_gray">#999999</color>
+
+    <integer-array name="material_refresh_color">
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/holo_blue_light</item>
+    </integer-array>
+
+</resources>
